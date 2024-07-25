@@ -1,0 +1,62 @@
+.contacto-body {
+    margin: 0;
+    font-family: "study-variable",sans-serif;
+    text-align: center;
+    align-items: center;
+    background: hwb(0 100% 0% / 0.823)
+}
+
+.contacto-body .navbar {
+    background: #2d8aed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.contacto-body .navbar > div {
+    padding: 15px;
+}
+
+.contacto-body #contacto a{
+    border-left: 3px solid rgb(232, 189, 58);
+    padding: 3px;
+} 
+
+.contacto-body #namePage{
+    margin-left: 3px;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+#namePage 
+#c:hover,
+#h:hover,
+#e:hover,
+#s:hover,
+#k:hover,
+#i:hover,
+#n:hover,
+#g:hover,
+#d:hover,
+#o:hover,
+#m:hover{
+    color: whitesmoke;
+}
+
+.contacto-body .navbar a {
+    font-family: "study-variable",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.contacto-body .navbar a:hover {
+    transition-property: font-size;
+    transition-property: border-bottom;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    font-size: 21px;
+    border-bottom: 2px solid whitesmoke;
+    border-left: none !important;
+}

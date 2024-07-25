@@ -1,0 +1,242 @@
+@media screen and (min-width: 0px) and (max-width: 374px) {
+
+    .main-body {
+        margin: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: hwb(0 100% 0% / 0.823)
+    }
+
+    .main-body .navbar {
+        background: #2d8aed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-body #namePage{
+        font-size: 25px;
+        font-weight:bolder;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-body .principal img{
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .main-body #slogan{
+        width: 100%;
+        font-style: italic;
+        justify-content: center;
+    }
+
+    .main-body .content {   
+        margin: 15% 2%;
+        align-items: center;
+    }
+
+    .main-body .content ul li{
+        list-style: none;
+        line-height: 200%;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+
+}
+
+@media screen and (min-width: 375px ) and (max-width: 659px) {
+
+    .main-body {
+        margin: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: hwb(0 100% 0% / 0.823)
+    }
+
+    .main-body .navbar {
+        background: #2d8aed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-body #namePage{
+        width: 100%
+    }
+
+    .main-body .navbar > div {
+        padding: 15px;
+    }
+
+    .main-body #home a{
+        border-left: 3px solid rgb(232, 189, 58);
+        padding: 3px;
+    } 
+
+    .main-body #namePage{
+        margin-left: 3px;
+        font-size: 40px;
+        font-weight:bolder;
+    }
+    
+    #namePage 
+    #c:hover,
+    #h:hover,
+    #e:hover,
+    #s:hover,
+    #k:hover,
+    #i:hover,
+    #n:hover,
+    #g:hover,
+    #d:hover,
+    #o:hover,
+    #m:hover{
+        color: whitesmoke;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-body .navbar a:hover {
+        transition-property: font-size;
+        transition-property: border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 21px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .main-body .principal img{
+        margin: 10px;
+        align-items: center;
+    }
+
+    .main-body #slogan{
+        width: 100%;
+        font-style: italic;
+        justify-content: center;
+    }
+
+    .main-body .content {   
+        margin: 15% 2%;
+        align-items: center;
+    }
+
+    .main-body .content ul li{
+        list-style: none;
+        line-height: 200%;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+}
+
+@media screen and (min-width: 660px ) {
+
+    .main-body {
+        margin: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: hwb(0 100% 0% / 0.823)
+    }
+
+    .main-body .navbar {
+        background: #2d8aed;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-body .navbar > div {
+        padding: 15px;
+    }
+
+    .main-body #home a{
+        border-left: 3px solid rgb(232, 189, 58);
+        padding: 3px;
+    } 
+
+    .main-body #namePage{
+        margin-left: 3px;
+        font-size: 40px;
+        font-weight:bolder;
+    }
+    
+    #namePage 
+    #c:hover,
+    #h:hover,
+    #e:hover,
+    #s:hover,
+    #k:hover,
+    #i:hover,
+    #n:hover,
+    #g:hover,
+    #d:hover,
+    #o:hover,
+    #m:hover{
+        color: whitesmoke;
+    }
+
+    .main-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-body .navbar a:hover {
+        transition-property: font-size;
+        transition-property: border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 21px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .main-body .principal img{
+        margin: 10px;
+        align-items: center;
+    }
+
+    .main-body #slogan{
+        width: 100%;
+        font-style: italic;
+        justify-content: center;
+    }
+
+    .main-body .content {   
+        margin: 15% 2%;
+        align-items: center;
+    }
+
+    .main-body .content ul li{
+        list-style: none;
+        line-height: 200%;
+    }
+
+    .main-body .content .name{
+        color:#2d8aed;
+    }
+}
