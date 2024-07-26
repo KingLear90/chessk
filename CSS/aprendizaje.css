@@ -1,4 +1,4 @@
-.cards-body {
+.learn-body {
     margin: 0;
     font-family: "study-variable",sans-serif;
     text-align: center;
@@ -6,23 +6,23 @@
     background: hwb(0 100% 0% / 0.823)
 }
 
-.cards-body .navbar {
+.learn-body .navbar {
     background: #2d8aed;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.cards-body .navbar > div {
+.learn-body .navbar > div {
     padding: 15px;
 }
 
-.cards-body #cards a{
+.learn-body #learn a{
     border-left: 3px solid rgb(232, 189, 58);
     padding: 3px;
 } 
 
-.cards-body #namePage{
+.learn-body #namePage{
     margin-left: 3px;
     font-size: 40px;
     font-weight:bolder;
@@ -43,7 +43,7 @@
     color: whitesmoke;
 }
 
-.cards-body .navbar a {
+.learn-body .navbar a {
     font-family: "study-variable",sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -51,7 +51,7 @@
     text-decoration: none;
 }
 
-.cards-body .navbar a:hover {
+.learn-body .navbar a:hover {
     transition-property: font-size;
     transition-property: border-bottom;
     transition-duration: 0.5s;
@@ -59,4 +59,45 @@
     font-size: 21px;
     border-bottom: 2px solid whitesmoke;
     border-left: none !important;
+}
+
+.learn-body #anuncio{
+    margin: 4%;
+    color: rgba(0, 0, 0, 0.726);
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align:center;
+}
+
+.learn-body .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    gap: 3%;
+}
+
+.learn-body .container .cards {
+    align-items: center;
+    height: 350px;
+    width: 300px;
+}
+
+.learn-body .container .cards:hover {
+  background: linear-gradient(#c3daf2, #6daff6);
+}
+
+.learn-body .cards h5 {
+    padding: 3%;
+    font-family: "study-variable", sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+.learn-body p {
+    padding: 5%;
+    text-align: justify ;
 }
