@@ -62,7 +62,8 @@
 }
 
 .learn-body #anuncio{
-    margin: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: rgba(0, 0, 0, 0.726);
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
@@ -75,19 +76,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 400px;
+    margin-top: 1%;
+    height: 500px;
     width: 100%;
     gap: 3%;
 }
 
 .learn-body .container .cards {
     align-items: center;
-    height: 350px;
+    height: 500px;
     width: 300px;
 }
 
 .learn-body .container .cards:hover {
-  background: linear-gradient(#c3daf2, #6daff6);
+  background: linear-gradient(#c3daf2, #7093b8c9);
+  text-shadow: 0 0 3px rgb(255, 255, 255);
+  transition-duration: 0.5s;
 }
 
 .learn-body .cards h5 {
@@ -98,6 +102,20 @@
 }
 
 .learn-body p {
-    padding: 5%;
-    text-align: justify ;
+    padding: 5% 1%;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.learn-body .btns{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.learn-body .btn {
+    background: #428bda !important;
+    color:rgba(0, 0, 0, 0.726);
+    justify-content: center;
+    border-radius: 5%;
 }
