@@ -28,7 +28,6 @@
     font-weight:bolder;
 }
 
-#namePage 
 #c:hover,
 #h:hover,
 #e:hover,
@@ -40,7 +39,8 @@
 #d:hover,
 #o:hover,
 #m:hover{
-    color: whitesmoke;
+    color: white;
+    text-shadow: 0 0 7px whitesmoke;
 }
 
 .contacto-body .navbar a {
@@ -60,3 +60,4 @@
     border-bottom: 2px solid whitesmoke;
     border-left: none !important;
 }
+
