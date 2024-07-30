@@ -1,124 +1,143 @@
+@media screen and (min-width: 465px) and (max-width: 767px) {
+    
+    .learn-body {
+        margin: 0;
+        padding: 0;
+        font-family: "study-variable",sans-serif;
+        text-align: center;
+        align-items: center;
+        background: hwb(0 100% 0% / 0.823)
+    }
 
+    .learn-body .navbar {
+        background: #2d8aed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.learn-body {
-    margin: 0;
-    padding: 0;
-    font-family: "study-variable",sans-serif;
-    text-align: center;
-    align-items: center;
-    background: hwb(0 100% 0% / 0.823)
+    .learn-body #learn a{
+        border-left: 3px solid rgb(232, 189, 58);
+        padding: 3px;
+    } 
+
+    .learn-body #namePage{
+        margin-left: 3px;
+        font-size: 25px;
+        font-weight:bolder;
+    }
+
+    #c:hover,
+    #h:hover,
+    #e:hover,
+    #s:hover,
+    #k:hover,
+    #i:hover,
+    #n:hover,
+    #g:hover,
+    #d:hover,
+    #o:hover,
+    #m:hover{
+        color: white;
+        text-shadow: 0 0 7px whitesmoke;
+    }
+
+    .learn-body .navbar a {
+        font-family: "study-variable",sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+    }
+
+    .learn-body .navbar a:hover {
+        transition-property: font-size, border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 21px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .learn-body #anuncio{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        color: rgba(0, 0, 0, 0.726);
+        font-family: "study-variable", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: italic;
+        text-align:center;
+    }
+
+    .learn-body .main .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 10px;
+        height: 500px;
+        width: 100%;
+        gap: 3%;
+    }
+
+    .learn-body .container .cards {
+        background: #f0f2f5;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 100%;
+        width: 45%;
+    }
+
+    .learn-body .container img, p {
+        height: 25%;
+    }
+
+    .learn-body .container .cards:hover {
+    background: linear-gradient(#aac7e7, #e6ebf1c9);
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+    }
+
+    .learn-body .cards h5 {
+        padding: 3%;
+        font-family: "study-variable", sans-serif;
+        text-align: center;
+        font-weight: 900;
+        height: 9.8%;
+    }
+
+    .learn-body p {
+        padding: 5% 1%;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+
+    .learn-body .btn {
+        background: #428bda !important;
+        color:rgba(0, 0, 0, 0.726);
+        justify-content: center;
+        border-radius: 5%;
+        height: 6%;
+        margin-top: 30%;
+    }
 }
 
-.learn-body .navbar {
-    background: #2d8aed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+@media screen and (min-width: 515px) and (max-width: 767px) {
+    .learn-body .navbar {
+        background: #2d8aed;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 3%
+    }
+ }
 
-.learn-body #learn a{
-    border-left: 3px solid rgb(232, 189, 58);
-    padding: 3px;
-} 
-
-.learn-body #namePage{
-    margin-left: 3px;
-    font-size: 40px;
-    font-weight:bolder;
-}
-
-#c:hover,
-#h:hover,
-#e:hover,
-#s:hover,
-#k:hover,
-#i:hover,
-#n:hover,
-#g:hover,
-#d:hover,
-#o:hover,
-#m:hover{
-    color: white;
-    text-shadow: 0 0 7px whitesmoke;
-}
-
-.learn-body .navbar a {
-    font-family: "study-variable",sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: white;
-    text-decoration: none;
-}
-
-.learn-body .navbar a:hover {
-    transition-property: font-size, border-bottom;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    font-size: 21px;
-    border-bottom: 2px solid whitesmoke;
-    border-left: none !important;
-}
-
-.learn-body #anuncio{
-    margin-top: 3%;
-    margin-bottom: 3%;
-    color: rgba(0, 0, 0, 0.726);
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: italic;
-    text-align:center;
-}
-
-.learn-body .main .container {
-    display: flex;
-    align-items: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 10px;
-    height: 500px;
-    width: 100%;
-    gap: 3%;
-}
-
-.learn-body .container .cards {
-    align-items: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    height: 100%;
-    width: 25%;
-}
-
-.learn-body .container img, p {
-    height: 30%;
-}
-
-.learn-body .container .cards:hover {
-  background: linear-gradient(#c3daf2, #e6ebf1c9);
-  text-shadow: 0 0 3px rgb(255, 255, 255);
-  transition-duration: 0.5s;
-}
-
-.learn-body .cards h5 {
-    padding: 3%;
-    font-family: "study-variable", sans-serif;
-    text-align: center;
-    font-weight: 900;
-}
-
-.learn-body p {
-    padding: 5% 1%;
-    text-align: center;
-    letter-spacing: 1.5px;
-}
-
-.learn-body .btn {
-    background: #428bda !important;
-    color:rgba(0, 0, 0, 0.726);
-    justify-content: center;
-    border-radius: 5%;
-    height: 10%;
-}
 
 @media screen and (min-width: 0px) and (max-width: 294px) {
 
@@ -170,7 +189,7 @@
     .learn-body #anuncio {
         margin: 7% 2% 3% 6%;
         font-weight: 300;
-        font-style: normal;
+        font-style: italic;
         text-align: center;
         width: 90%;
     } 
@@ -188,6 +207,7 @@
     }
 
     .learn-body .container .cards {
+        background: #f0f2f5;
         align-items: center;
         height: 100%; 
         width: 90%;
@@ -214,7 +234,7 @@
     }
 }
 
-@media screen and (min-width: 295px) and (max-width: 374px) {
+@media screen and (min-width: 295px) and (max-width: 464px) {
 
     .learn-body {
         margin: 0;
@@ -264,7 +284,7 @@
     .learn-body #anuncio {
         margin: 7% 2% 3% 6%;
         font-weight: 300;
-        font-style: normal;
+        font-style: italic;
         text-align: center;
         width: 90%;
     } 
@@ -282,6 +302,7 @@
     }
 
     .learn-body .container .cards {
+        background: #f0f2f5;
         align-items: center;
         height: 100%;
         width: 80%;
