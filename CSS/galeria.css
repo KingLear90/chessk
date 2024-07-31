@@ -392,6 +392,7 @@
         flex-direction: row;
         justify-content: flex-end;
         gap: 3%;
+        padding: 2%;
     }
 
     .galeria-body .galeria h2{

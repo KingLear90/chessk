@@ -7,10 +7,11 @@
 }
 
 .contacto-body .navbar {
-    background: #2d8aed;
+    background: linear-gradient(#519bfb, #19467dc9);   
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    gap: 1%;
 }
 
 .contacto-body .navbar > div {
