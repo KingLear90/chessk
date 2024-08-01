@@ -3,7 +3,7 @@
     font-family: "study-variable",sans-serif;
     text-align: center;
     align-items: center;
-    background: hwb(0 100% 0% / 0.823)
+    background: linear-gradient(#b9b3b3, #ba8fb8ee)
 }
 
 .galeria-body .navbar {
@@ -11,8 +11,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        position: sticky;
-}
+    }
 
 .galeria-body #galeria a{
     border-left: 3px solid rgb(232, 189, 58);
@@ -71,7 +70,8 @@
     gap: 2.5%;
     flex-wrap: wrap;
 }
-.imagen{
+
+.galeria-body .imagen{
     border: 2px solid rgba(71, 106, 229, 0.572);
     transform: 0.5 ease;
     margin-bottom: 3.5%;
@@ -85,32 +85,21 @@
 @media screen and (min-width: 0px) and (max-width: 209px) {
 
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
-    
-    .galeria-body #galeria a{
-        border-left: 3px solid rgb(232, 189, 58);
-        padding: 3px;
-    } 
 
     .galeria-body .navbar a {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .galeria-body #namePage{
-        margin-left: 3px;
         font-size: 20px;
-        font-weight:bolder;
         text-align: center;
     }
 
     .galeria-body .galeria h2{
         font-size: 18px;
         text-align: center;
-        margin: 2%;
     }
     
     .galeria-body .campeones{
@@ -120,56 +109,18 @@
         width: 100%;
         margin: 5% 2%;
         gap: 2.5%;
-        overflow: hidden;
     }
 
     .imagen{
         width: 90%;
-        border: 2px solid rgba(71, 106, 229, 0.572);
-        transform: 0.5 ease;
-        margin-bottom: 3.5%;
     }
-    
-    .galeria-body .galeria .campeones .imagen:hover{
-        border:none;
-        transform: scale(1.2);
-    }
-
 }
 
 
 @media screen and (min-width: 210px) and (max-width: 249px) {
-
-    .galeria-body {
-        margin: 0;
-        font-family: "study-variable",sans-serif;
-        text-align: center;
-        align-items: center;
-        background: hwb(0 100% 0% / 0.823)
-    }
     
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .galeria-body .navbar a:hover {
-        transition-property: font-size, border-bottom;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        font-size: 17px;
-        border-bottom: 2px solid whitesmoke;
-        border-left: none !important;
-    }
-
-    .galeria-body #galeria a{
-        border-left: 3px solid rgb(232, 189, 58);
-    } 
-
-    .galeria-body .navbar > div {
-        margin-top: 2%;
     }
 
     .galeria-body #namePage{
@@ -178,26 +129,17 @@
     }
 
     .galeria-body .navbar a {
-        font-family: "study-variable",sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-        color: white;
-        text-decoration: none;
+        font-size: 15px;
     }
 
     .galeria-body .galeria h2{
-        font-size: 18px;
+        font-size: 19px;
         text-align: center;
     }
 
     .galeria-body .campeones{
-        display:flex;
         flex-direction: row;
         justify-content: center;
-        width: 100%;
-        margin: 5% 2%;
-        gap: 2.5%;
-        flex-wrap: wrap;
     }
 
     .imagen{
@@ -209,177 +151,105 @@
     }
 
     .galeria-body .galeria .campeones .imagen:hover{
-        border:none;
-        transform: scale(1.27);
+        transform: scale(1.18);
     }
 }
 
 @media screen and (min-width: 250px) and (max-width: 469px) {
-    .galeria-body {
-        margin: 0;
-        font-family: "study-variable",sans-serif;
-        text-align: center;
-        align-items: center;
-        background: hwb(0 100% 0% / 0.823)
-    }
 
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
-
-    .galeria-body #galeria a{
-        border-left: 3px solid rgb(232, 189, 58);
-        padding: 3px;
-    } 
 
     .galeria-body #namePage{
-        margin-left: 3px;
         font-size: 25px;
-        font-weight:bolder;
-    }
-
-    #c:hover,
-    #h:hover,
-    #e:hover,
-    #s:hover,
-    #k:hover,
-    #i:hover,
-    #n:hover,
-    #g:hover,
-    #d:hover,
-    #o:hover,
-    #m:hover{
-        color: white;
-        text-shadow: 0 0 7px whitesmoke;
     }
 
     .galeria-body .navbar a {
-        font-family: "study-variable",sans-serif;
-        font-size: 18px;
-        font-weight: 300;
-        color: white;
-        text-decoration: none;
-    }
-
-    .galeria-body .navbar a:hover {
-        transition-property: font-size;
-        transition-property: border-bottom;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        font-size: 21px;
-        border-bottom: 2px solid whitesmoke;
-        border-left: none !important;
+        font-size: 17px;
     }
 
     .galeria-body .galeria h2{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
-        margin: 2%;
     }
 
     .galeria-body .campeones{
-        display:flex;
-        flex-direction: row;
-        width: 100%;
         margin-left: auto;
         margin-right: auto;
-        gap: 2.5%;
-        flex-wrap: wrap;
         justify-content: center;
+        gap: 7%;
     }
     .galeria-body .imagen{
         width: 40%;
         height: 150px;
-        border: 2px solid rgba(71, 106, 229, 0.572);
-        transform: 0.5 ease;
-        margin-bottom: 3.5%;
     }
 
     .galeria-body .galeria .campeones .imagen:hover{
-        border:none;
-        transform: scale(1.2);
+        transform: scale(1.18);
     }
 }
 
 @media screen and (min-width: 470px) and (max-width: 524px) {
+    
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .galeria-body #namePage{
-        margin-left: 3px;
         font-size: 25px;
-        font-weight:bolder;
     }
 
     .galeria-body .galeria h2{
         text-align: center;
-        font-size: 18px;
-        margin: 2%;
+        font-size: 22px;
     }
     
     .galeria-body .campeones{
-        display:flex;
-        flex-direction: row;
-        width: 100%;
         margin-left: auto;
         margin-right: auto;
-        gap: 2.5%;
+        gap: 7%;
         justify-content: center;
     }
 
     .galeria-body .campeones .imagen{
         width: 40%;
         height: 140px;
-        border: 2px solid rgba(71, 106, 229, 0.572);
-        transform: 0.5 ease;
-        margin-bottom: 3.5%;
     }
 }
 
 @media screen and (min-width: 525px) and (max-width: 669px) {
 
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        gap: 5%;
     }
 
     .galeria-body #namePage{
-        margin-left: 3px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         font-size: 27px;
-        font-weight:bolder;
     }
 
     .galeria-body .galeria h2{
         font-size: 22px;
         text-align: center;
-        margin-top: 3%;
     }
     
     .galeria-body .campeones{
-        display:flex;
-        flex-direction: row;
-        width: 100%;
         margin-left: auto;
         margin-right: auto;
-        gap: 2.5%;
         justify-content: center;
     }
 
     .galeria-body .campeones .imagen{
         width: 30%;
         height: 140px;
-        border: 2px solid rgba(71, 106, 229, 0.572);
-        transform: 0.5 ease;
-        margin-bottom: 3.5%;
+    }
+
+    .galeria-body .galeria .campeones .imagen:hover{
+        transform: scale(1.1);
     }
 }
 
