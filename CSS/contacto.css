@@ -3,7 +3,7 @@
     font-family: "study-variable",sans-serif;
     text-align: center;
     align-items: center;
-    background: linear-gradient(#c7c9c9ee, #c7c6c6)
+    background: linear-gradient(#c6f3f3ee, #c7c6c6)
 }
 
 .contacto-body .navbar {
@@ -63,21 +63,63 @@
 }
 
 .contacto-body h3 {
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 .contacto-body .mb-3{
     display: flex;
-    margin: 5% 27%;
+    margin: 2% 35%;
     flex-direction: column;
-    width: 45%;
+    width: 31.5%;
 }
 
-.contacto-body #msg{
-    margin-top: 1%;
+.contacto-body #msg,
+ #mail,
+#cel,
+#name   {
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+.contacto-body #boxmsg {
+    height: 100px;
 }
 
 .contacto-body .form-select{
-    width: 45%;
-    margin: 5% 27% ;
+    width: 31.5%;
+    margin: 2% 35% ;
+}
+
+.contacto-body h6{
+    margin: 2% 0;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 399) {
+
+    .contacto-body .navbar {
+        background: linear-gradient(#519bfb, #19467dc9);   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto-body .navbar a:hover {
+        transition-property: font-size, border-bottom;
+        transition-duration: 0.5s;
+        transition-delay: 0.1s;
+        font-size: 15px;
+        border-bottom: 2px solid whitesmoke;
+        border-left: none !important;
+    }
+
+    .contacto-body .navbar > div {
+        margin-top: 2%;
+    }
+
+    .contacto-body #namePage{
+        font-size: 25px;
+        font-weight:bolder;
+    }
+    
 }

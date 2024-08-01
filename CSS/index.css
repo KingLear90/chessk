@@ -36,7 +36,7 @@
 
     .main-body .navbar a {
         font-family: "study-variable",sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         color: white;
         text-decoration: none;
@@ -47,8 +47,10 @@
     } 
 
     .main-body .principal img{
-        margin: 20px;
-        align-items: center;
+        margin: 2%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .main-body #slogan h3{
@@ -173,8 +175,10 @@
     }
 
     .main-body .principal img{
-        margin-top: 5.5%;
-        width: 100%;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
         align-items: center;
     }
 
@@ -275,9 +279,17 @@
         border-left: none !important;
     }
 
+    .main-body .logo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-top: auto;
+    }
+
     .main-body .principal img{
-        margin: 10px;
-        align-items: center;
+        margin-top: 2%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .main-body #slogan{
@@ -305,8 +317,9 @@
         background: linear-gradient(#519bfb, #19467dc9);   
         font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
         display: flex;  
-        font-weight: 900;
-        justify-content: space-around;
+        font-weight: 400;
+        font-style: italic;
+        justify-content: space-between;
         padding: 1%;
     }
 
