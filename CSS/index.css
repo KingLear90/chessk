@@ -47,10 +47,19 @@
     } 
 
     .main-body .principal img{
-        margin: 2%;
-        width: 80%;
-        margin-right: auto;
+        margin-top: 3%;
+        margin-bottom: 2%;
         margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        align-items: center;
+        animation-name: transform;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes transform {
+        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan h3{
@@ -175,11 +184,19 @@
     }
 
     .main-body .principal img{
-        margin-top: 2%;
+        margin-top: 3%;
+        margin-bottom: 2%;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         align-items: center;
+        animation-name: transform;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes transform {
+        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan h3{
@@ -286,10 +303,19 @@
     }
 
     .main-body .principal img{
-        margin-top: 2%;
-        width: 80%;
-        margin-right: auto;
+        margin-top: 3%;
+        margin-bottom: 2%;
         margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        align-items: center;
+        animation-name: transform;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes transform {
+        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan{
