@@ -53,13 +53,6 @@
         margin-right: auto;
         width: 80%;
         align-items: center;
-        animation-name: transform;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes transform {
-        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan h3{
@@ -190,13 +183,6 @@
         margin-right: auto;
         width: 80%;
         align-items: center;
-        animation-name: transform;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes transform {
-        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan h3{
@@ -309,13 +295,6 @@
         margin-right: auto;
         width: 80%;
         align-items: center;
-        animation-name: transform;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes transform {
-        50% {transform: skew(2deg, 1deg);}
     }
 
     .main-body #slogan{
