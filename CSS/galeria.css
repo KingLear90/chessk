@@ -3,7 +3,7 @@
     font-family: "study-variable",sans-serif;
     text-align: center;
     align-items: center;
-    background: hwb(0 100% 0% / 0.823)
+    background: linear-gradient(#c6f3f3ee, #c7c6c6)
 }
 
 .galeria-body .navbar {
