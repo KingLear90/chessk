@@ -3,11 +3,11 @@
     font-family: "study-variable",sans-serif;
     text-align: center;
     align-items: center;
-    background: linear-gradient(#b9b3b3, #ba8fb8ee)
+    background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
 }
 
 .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -256,7 +256,7 @@
 @media screen and (min-width: 669px) {
 
     .galeria-body .navbar {
-        background: linear-gradient(#519bfb, #19467dc9);   
+        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
