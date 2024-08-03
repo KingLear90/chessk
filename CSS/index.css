@@ -147,10 +147,11 @@
 
     .main-body .navbar a {
         font-family: "study-variable",sans-serif;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         color: white;
         text-decoration: none;
+        text-shadow: 0 1 3px black;
     }
 
     .main-body #home a{

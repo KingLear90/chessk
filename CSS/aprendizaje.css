@@ -1,4 +1,131 @@
 
+@media screen and (min-width: 0px) and (max-width: 294px) {
+
+
+   .learn-body {
+       margin: 0;
+       padding: 0;
+       font-family: "study-variable",sans-serif;
+       text-align: center;
+       align-items: center;
+       background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));  
+   }
+
+
+   .learn-body .navbar {
+       background: linear-gradient(180deg, #519bfb, #6294d1c9); 
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+
+   .learn-body .navbar a:hover {
+       transition-property: font-size, border-bottom;
+       transition-duration: 0.5s;
+       transition-delay: 0.1s;
+       font-size: 17px;
+       border-bottom: 2px solid whitesmoke;
+       border-left: none !important;
+   }
+
+
+   .learn-body #learn a{
+       border-left: 3px solid rgb(232, 189, 58);
+   }
+
+
+   .learn-body .navbar > div {
+       margin-top: 2%;
+   }
+
+
+   .learn-body .navbar #namePage{
+       font-size: 25px;
+       font-weight:bolder;
+   }
+
+
+   .learn-body .navbar a {
+       font-family: "study-variable",sans-serif;
+       font-size: 14px;
+       font-weight: 300;
+       color: white;
+       text-decoration: none;
+       text-shadow: 0 1 3px black;
+   }
+
+
+   .learn-body #anuncio {
+       margin: 7% 2% 3% 6%;
+       font-weight: 300;
+       font-style: italic;
+       text-align: center;
+       width: 90%;
+   }
+
+
+   .learn-body .main .container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       padding: 10px;
+       height: 445px;
+       width: 100%;
+       row-gap: 2%;
+   }
+
+
+   .learn-body .container .cards {
+       background: linear-gradient(180deg,#648de1, #ffffff);
+       align-items: center;
+       height: 100%;
+       width: 90%;
+       border-radius: 8px;
+   }
+
+
+     .learn-body .container img, p {
+       height: 30%;
+   }
+
+
+   .learn-body .container .cards h5 {
+       color: white;
+       height: 9.3%;
+   }
+
+
+   .learn-body .btn {
+       background: #3491f3;
+       color:rgba(0, 0, 0, 0.726);
+       justify-content: center;
+       border-radius: 4%;
+       height: 5%;
+       margin-top: 16%;
+   }
+
+
+   .learn-body .btn:hover {
+       color: rgb(252, 250, 250);
+       background: #2a77ca;
+       zoom: 110%;
+   }
+
+
+   .learn-body #card2 .btn {
+       margin-top: 22%;
+   }
+
+
+   .learn-body p {
+       padding: 5% 1%;
+       text-align: center;
+       letter-spacing: 1.5px;
+   }
+}
 
 @media screen and (min-width: 330px) and (max-width: 429px) {
     
@@ -545,6 +672,7 @@
 
     .learn-body {
         margin: 0;
+        padding: 0;
         font-family: "study-variable",sans-serif;
         text-align: center;
         align-items: center;
