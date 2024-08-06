@@ -12,50 +12,65 @@
 
 <body class="contacto-body">
     <header>
-            <div class="navbar">
-                <div id="namePage"><span id="word"><span id="c">C</span><span id="h">h</span><span id="e">e</span><span id="s">s</span><span id="s">s</span><span id="k">K</span><span id="i">i</span><span id="n">n</span><span id="g">g</span><span id="d">d</span><span id="o">o</span><span id="m">m</span></span></div>
-                <div id="home"><a href="index.html">Home</a></div> 
-                <div id="learn"><a href="aprendizaje.html">Aprendizaje</a></div>
-                <div id="galeria"><a href="galeria.html">Galería</a></div>
-                <div id="contacto"><a href="contacto.html">Contacto</a></div>
-        </div>
+            <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+                <div class="navbar-brand ml-auto" id="namePage"><span id="word"><span id="c">C</span><span id="h">h</span><span id="e">e</span><span id="s">s</span><span id="s">s</span><span id="k">K</span><span id="i">i</span><span id="n">n</span><span id="g">g</span><span id="d">d</span><span id="o">o</span><span id="m">m</span></span></div>
+                <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="aprendizaje.html">Aprendizaje</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="galeria.html">Galería</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
     </header>
 
     <div class="main">
         <h3>¡Contactanos!</h3>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label" id="name">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+        <div class="container" style="margin-top: 20px;">
+            <form>
+                <label>Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 <h6>¿Género?</h6>
                 <div class="genero">
                     <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">Masculino</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">Femenino</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">Otro</label>
-                  </div>
-                </div>
-            <label for="exampleFormControlInput1" class="form-label" id="mail">Correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-            <label for="exampleFormControlInput1" class="form-label" id="cel">Celular</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sin 0 ni 15, por ejemplo: 11 1234 5678">
-            <label for="exampleFormControlInput1" class="form-label" id="msg">Mensaje</label>
-                <input type="email" class="form-control" id="boxmsg" placeholder="Me gustaría saber/comentar...">
-        </div>
-        <select class="form-select" aria-label="¿Cómo preferís ser contactado/a?">
-            <option selected>¿Cómo preferís ser contactado/a?</option>
-            <option value="1">Por mail.</option>
-            <option value="2">Por teléfono.</option>
-            <option value="3">No quiero que me contacten, sólo quería hacer un comentario. </option>
-        </select>    
-        <button type="submit" class="btn btn-primary">Enviar</button>
-</div>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">Femenino</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">Otro</label>
+                    </div>
+                <label for="exampleFormControlInput1" class="form-label" id="mail">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                <label for="exampleFormControlInput1" class="form-label" id="cel">Celular</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Sin 0 ni 15, por ejemplo: 11 1234 5678">
+                <label for="exampleFormControlInput1" class="form-label" id="msg">Mensaje</label>
+                    <input type="text" class="form-control" id="boxmsg" placeholder="Me gustaría saber/comentar...">
+        
+                <select class="form-select" aria-label="¿Cómo preferís ser contactado/a?">
+                    <option selected>¿Cómo preferís ser contactado/a?</option>
+                    <option value="1">Por mail.</option>
+                    <option value="2">Por teléfono.</option>
+                    <option value="3">No quiero que me contacten, sólo quería hacer un comentario. </option>
+                </select>    
+                <button type="submit" class="btn btn-primary" id="msg-btn" onclick="msgEnviado()">Enviar</button>
+                <button type="reset" class="btn btn-danger">Borrar</button>
+            </form>
+        </div>  
+    </div>
 
 
 </body>

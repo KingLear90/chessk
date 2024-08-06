@@ -19,7 +19,6 @@
 
 .main-body #home a{
     border-left: 3px solid rgb(232, 189, 58);
-    padding: 3px;
 } 
 
 .main-body #namePage{
@@ -108,40 +107,15 @@
     padding: 1%;
 }
 
-@media screen and (min-width: 0px) and (max-width: 399px) {
-
-    .main-body {
-        margin: 0;
-        padding: 0;
-        font-family: "study-variable",sans-serif;
-        text-align: center;
-        align-items: center;
-        background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
-    }
+@media screen and (min-width: 0px) and (max-width: 359px) {
 
     .main-body .navbar {
-        background: linear-gradient(180deg, #519bfb, #6294d1c9);  
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-    }
-
-    .main-body .navbar a:hover {
-        transition-property: font-size, border-bottom;
-        transition-duration: 0.5s;
-        transition-delay: 0.1s;
-        font-size: 17px;
-        border-bottom: 2px solid whitesmoke;
-        border-left: none !important;
-    }
-
-    .main-body .navbar > div {
-        margin-top: 2%;
-    }
+    }   
 
     .main-body #namePage{
         font-size: 25px;
-        font-weight:bolder;
+        margin-bottom: -15px;
     }
 
     .main-body .navbar a {
@@ -207,7 +181,7 @@
 
 }
 
-@media screen and (min-width: 400px ) and (max-width: 675px) {
+@media screen and (min-width: 360px ) and (max-width: 767px) {
 
     .main-body {
         margin: 0;
@@ -266,6 +240,7 @@
         font-weight: 300;
         color: white;
         text-decoration: none;
+        width: 90%;
     }
 
     .main-body .navbar a:hover {
@@ -312,7 +287,7 @@
 
 }
 
-@media screen and (min-width: 676px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .main-body {
         margin: 0;
@@ -412,5 +387,9 @@
         justify-content: space-between;
         padding: 1%;
     }
+
+}
+
+@media screen and (min-width: 1024px) { 
 
 }
