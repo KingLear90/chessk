@@ -67,7 +67,7 @@
     margin-top: 3%;
     text-align: center;
 }
-.contacto-body .mb-3{
+.contacto-body .container{
     display: flex;
     margin: 2% 35%;
     flex-direction: column;
@@ -87,8 +87,8 @@
 }
 
 .contacto-body .form-select{
-    width: 31.5%;
-    margin: 2% 35% ;
+    width: 100%;
+    margin: 2% 0% ;
 }
 
 .contacto-body h6{
