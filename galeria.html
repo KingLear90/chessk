@@ -65,24 +65,25 @@
             </ul>
             <span id="hide-el">Cerrar listado</span>
             <section id="own-gallery">
-                <form>
+                <form id="gallery-form">
                     <h3>¡Crea la galería de tus jugadores favoritos!</h3>
                     <div id="gallery-container">
                         <label for="titulo">Título:</label>
-                        <input type="text" id="titulo" name="titulo" required>
+                        <input type="text" id="titulo" name="titulo" placeholder="Ej.: Bobby Fischer, Interzonal 1958." required>
                         <label for="descripcion">Descripción:</label>
-                        <textarea id="descripcion" name="descripcion" autocapitalize="sentences"  maxlength="100" required></textarea> 
-                        <label for="titulo">URL de la imagen:</label>
-                        <input type="url" id="titulo" name="url" required>
+                        <textarea id="descripcion" name="descripcion" autocapitalize="sentences"  maxlength="100" placeholder="Imagen de Bobby Fischer enfrentando a David Bronstein en Portoroz Interzonal, 1958." required></textarea> 
+                        <label for="image-url">URL de la imagen:</label>
+                        <input type="url" id="image-url" name="image-url" placeholder="https://i.pinimg.com/564x/a9/5b/24/a95b24c7979df6c4e167721d89d18fc8.jpg">
                         <label for="color-fondo">Color de fondo:</label>
-                        <input type="color" id="color-fondo" name="color-fondo" value="#b3f4f5" required>
+                        <input type="color" id="color-fondo" name="color-fondo" value="#b3f4f5">
                         <label for="color-borde">Color de bordes:</label>
-                        <input type="color" id="color-borde" name="color-borde" value="#476592" required>
+                        <input type="color" id="color-borde" name="color-borde" value="#476592">
                         <button type="submit" id="agregar-card">Agregar foto</button>
                     </div>
+                    <div class="new-pics"></div>
                 </form>
             </section>
     </div>
-    <script src="/JS/script.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 </html>

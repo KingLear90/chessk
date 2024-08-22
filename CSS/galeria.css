@@ -144,12 +144,35 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 5%;   
+}
+
+.galeria-body #gallery-container #titulo{
+    width: 25%;
 }
 
 .galeria-body textarea{
     resize: none;
     height: 100px;
+    width: 25%;
+}
+
+.galeria-body #agregar-card {
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px;
+    margin-bottom: 8%;
+    margin-top: 3%;
+    background-color: rgb(41, 65, 218);
+}
+
+.galeria-body .image{
+    padding: 1%;
+    width:fit-content;
 }
 
 @media screen and (min-width: 0px) and (max-width: 209px) {
