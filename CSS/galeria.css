@@ -72,7 +72,7 @@
 }
 
 .galeria-body .imagen{
-    border: 2px solid rgba(71, 106, 229, 0.573);
+    border: 2px solid #476ae592;
     transform: 0.5 ease;
     margin-bottom: 2.0%;
 }
@@ -138,6 +138,10 @@
     transition: all 0.8s;
 }
 
+.galeria-body h3{
+    margin-bottom: 3%;
+}
+
 .galeria-body #gallery-container{
     display: flex;
     flex-direction: column;
@@ -157,22 +161,67 @@
     width: 25%;
 }
 
-.galeria-body #agregar-card {
+.galeria-body #agregar-card, #borrar-card {
     border: 0;
     line-height: 1.5;
+    width: 11%;
     padding: 0 20px;
     font-size: 1.2rem;
     text-align: center;
     color: #fff;
     border-radius: 7px;
-    margin-bottom: 8%;
+    margin-bottom: 3%;
     margin-top: 3%;
     background-color: rgb(41, 65, 218);
 }
 
-.galeria-body .image{
+.galeria-body #borrar-card {
+    margin-top: 1% !important;
+    background-color: rgb(223, 19, 36);
+}
+
+.galeria-body #alerta-title {
+    color: #f21010f0;
+    border-bottom: 2px solid #f21010f0;
+    animation-name: change-size;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.galeria-body #alerta-description {
+    color: #f21010f0;
+    border-bottom: 2px solid #f21010f0;
+    animation-name: change-size;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes change-size {
+    0% {font-size: 14px;};
+    50%{font-size: 16px;};
+    100%{font-size: 14px;};
+}
+
+.galeria-body .image {
     padding: 1%;
-    width:fit-content;
+    box-sizing: content-box;
+}
+
+.galeria-body .image:hover {
+    transform: scale(1.1);
+}
+
+.galeria-body .gallery-content {
+    margin: 1%;
+}
+
+.galeria-body .new-pics {
+    display: flex;
+    gap: 25px;
+    padding: 3%;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 @media screen and (min-width: 0px) and (max-width: 209px) {

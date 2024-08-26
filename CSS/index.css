@@ -76,22 +76,30 @@
     justify-content: center;
 }
 
-.main-body .content {   
-    margin: 3% 2%;
-    align-items: center;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 100%
-}
-
 .main-body .content {
-    list-style: none;
-    line-height: 200%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+    
+}
+
+.main-body .content li {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+    
 }
 
 .main-body .content .name{

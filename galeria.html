@@ -66,24 +66,32 @@
             <span id="hide-el">Cerrar listado</span>
             <section id="own-gallery">
                 <form id="gallery-form">
-                    <h3>¡Crea la galería de tus jugadores favoritos!</h3>
+                    <h3>¡Crea tu propia galería de ajedrez!</h3>
                     <div id="gallery-container">
                         <label for="titulo">Título:</label>
-                        <input type="text" id="titulo" name="titulo" placeholder="Ej.: Bobby Fischer, Interzonal 1958." required>
+                        <input type="text" id="titulo" name="titulo">
+                        <p id="alerta-title" style="display:none"></p>
+                        <br>
                         <label for="descripcion">Descripción:</label>
-                        <textarea id="descripcion" name="descripcion" autocapitalize="sentences"  maxlength="100" placeholder="Imagen de Bobby Fischer enfrentando a David Bronstein en Portoroz Interzonal, 1958." required></textarea> 
+                        <textarea id="descripcion" name="descripcion" autocapitalize="sentences"  maxlength="150"></textarea> 
+                        <p id="alerta-description" style="display:none"></p>
+                        <br>
                         <label for="image-url">URL de la imagen:</label>
-                        <input type="url" id="image-url" name="image-url" placeholder="https://i.pinimg.com/564x/a9/5b/24/a95b24c7979df6c4e167721d89d18fc8.jpg">
+                        <input type="url" id="image-url" name="image-url" placeholder="https://www.pexels.com/photo/chess-piece-260024/ ">
+                        <br>    
+                        <label for="tamaño-img">Tamaño de la imagen:</label>
+                        <input type="width" id="tamaño-img" name="tamaño-img" placeholder="Ejemplo: 200px">
                         <label for="color-fondo">Color de fondo:</label>
-                        <input type="color" id="color-fondo" name="color-fondo" value="#b3f4f5">
+                        <input type="color" id="color-fondo" name="color-fondo" value="#6fa1e2">
                         <label for="color-borde">Color de bordes:</label>
-                        <input type="color" id="color-borde" name="color-borde" value="#476592">
+                        <input type="color" id="color-borde" name="color-borde" value="#8f2ac6">
                         <button type="submit" id="agregar-card">Agregar foto</button>
+                        <button id="borrar-card" onclick="deleteCard()">Borrar foto</button>
                     </div>
                     <div class="new-pics"></div>
                 </form>
             </section>
     </div>
-    <script src="JS/script.js"></script>
+    <script src="JS/gallery.js"></script>
 </body>
 </html>
