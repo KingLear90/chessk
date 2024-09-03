@@ -4,7 +4,6 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
         const galeriaBtn = document.querySelector("#galeria-btn");
         const champsList = document.querySelector("#champs-list");
         const hideEl = document.querySelector("#hide-el");
-        const deleteCard = document.getElementById("borrar-card");
         const title = document.getElementById("titulo").value;
         const alertaTitle = document.getElementById("alerta-title");
         const descripcion = document.getElementById("descripcion").value;

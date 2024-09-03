@@ -224,7 +224,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 0px) and (max-width: 209px) {
+@media only screen and (max-width: 320px) {
 
     .galeria-body .navbar {
         flex-direction: column;
@@ -241,6 +241,11 @@
 
     .galeria-body .galeria h2{
         font-size: 18px;
+        text-align: center;
+    }
+
+    .galeria-body h5{
+        font-size: 14px;
         text-align: center;
     }
     
