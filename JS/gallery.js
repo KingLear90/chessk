@@ -53,11 +53,9 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
 
         if (title === "") {
             alertaTitle.style.display = "inline-block";
-            alertaTitle.textContent = `Es necesario incluir un título`;
             newPic.appendChild();
         }   else if (descripcion === "") {
             alertaDescription.style.display = "inline-block";
-            alertaDescription.textContent = `Es necesario incluir una descripción`;
             newPic.appendChild();
         }   else {
             newPic.appendChild(addToGallery);

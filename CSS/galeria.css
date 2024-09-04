@@ -181,16 +181,14 @@
 }
 
 .galeria-body #alerta-title {
-    color: #f21010f0;
-    border-bottom: 2px solid #f21010f0;
+    color: #b3261e;
     animation-name: change-size;
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
 
 .galeria-body #alerta-description {
-    color: #f21010f0;
-    border-bottom: 2px solid #f21010f0;
+    color: #b3261e;
     animation-name: change-size;
     animation-duration: 1s;
     animation-iteration-count: 1;
