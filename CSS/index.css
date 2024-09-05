@@ -3,7 +3,7 @@
     font-family: "study-variable",sans-serif;
     text-align: center;
     align-items: center;
-    background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
+    background: rgb(232, 239, 239);
 }
 
 .main-body .navbar {
@@ -124,7 +124,7 @@
         font-family: "study-variable",sans-serif;
         text-align: center;
         align-items: center;
-        background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
+        background: rgb(232, 239, 239);
     }
 
     .main-body .navbar {
@@ -223,7 +223,7 @@
         font-family: "study-variable",sans-serif;
         text-align: center;
         align-items: center;
-        background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
+        background: rgb(232, 239, 239);
     }
 
     .main-body .navbar {
@@ -327,7 +327,7 @@
         font-family: "study-variable",sans-serif;
         text-align: center;
         align-items: center;
-        background: linear-gradient(180deg, rgb(232, 239, 239), rgb(199, 205, 175));   
+        background: rgb(232, 239, 239);   
     }
 
     .main-body .navbar {
