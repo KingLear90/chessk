@@ -1,9 +1,6 @@
 document.getElementById("gallery-form").addEventListener("submit", function (event) {
         event.preventDefault();
 
-        const galeriaBtn = document.querySelector("#galeria-btn");
-        const champsList = document.querySelector("#champs-list");
-        const hideEl = document.querySelector("#hide-el");
         const title = document.getElementById("titulo").value;
         const alertaTitle = document.getElementById("alerta-title");
         const descripcion = document.getElementById("descripcion").value;
@@ -14,26 +11,6 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
         const colorFondo = document.getElementById("color-fondo").value;
         const colorBorde = document.getElementById("color-borde").value;
         const newPic = document.querySelector(".new-pics");
-
-        console.log({
-            title: title,
-            descripcion: descripcion,
-            image: image,
-            colorFondo: colorFondo,
-            colorBorde: colorBorde,
-        });
-
-        galeriaBtn.addEventListener("click", () =>{
-            galeriaBtn.style.display = "none";
-            champsList.style.display = "block";
-            hideEl.style.display = "inline-block";
-        });
-
-        hideEl.addEventListener("click", () => {
-            galeriaBtn.style.display = "inline-block";
-            champsList.style.display = "none";
-            hideEl.style.display = "none";
-        });
 
         // Crear nuevas cards 
         const addToGallery = document.createElement("div");
@@ -75,3 +52,20 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
         const newPic = document.querySelector(".new-pics");
         newPic.lastChild.remove();
     }
+
+
+    const galeriaBtn = document.querySelector("#galeria-btn");
+    const champsList = document.querySelector("#champs-list");
+    const hideEl = document.querySelector("#hide-el");
+
+    galeriaBtn.addEventListener("click", () =>{
+        galeriaBtn.style.display = "none";
+        champsList.style.display = "block";
+        hideEl.style.display = "inline-block";
+    });
+    
+    hideEl.addEventListener("click", () => {
+        galeriaBtn.style.display = "inline-block";
+        champsList.style.display = "none";
+        hideEl.style.display = "none";
+    });
