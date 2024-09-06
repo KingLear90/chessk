@@ -28,14 +28,15 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
             </div>
         `;
 
+        // Alternativa entre agregar la imagen correctamente o mostrar mensaje de error si falta título, descripción o ambos:
         if (title === "") {
             alertaTitle.style.display = "inline-block";
-            newPic.appendChild();
+            newPic.appendChild();   // Como no hay título, no habrá imagen agregada.
         }   else if (descripcion === "") {
             alertaDescription.style.display = "inline-block";
-            newPic.appendChild();
+            newPic.appendChild();   // Como no hay descripción, no habrá imagen.
         }   else {
-            newPic.appendChild(addToGallery);
+            newPic.appendChild(addToGallery);       // Hay imagen y descripción, entonces se agrega foto. 
             alertaTitle.style.display = "none";
             alertaDescription.style.display = "none";
         } 
@@ -48,22 +49,25 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
 
     });
 
+    // Botón que cumple la función de ir eliminando las imágenes agregadas (o la única, si hay solo una): 
     function deleteCard() {
         const newPic = document.querySelector(".new-pics");
         newPic.lastChild.remove();
     }
 
-
+    // Constantes para mostrar o esconder listado de campeones mundiales:     
     const galeriaBtn = document.querySelector("#galeria-btn");
     const champsList = document.querySelector("#champs-list");
     const hideEl = document.querySelector("#hide-el");
 
+    // Botón que responde al evento del click para mostrar imágenes:
     galeriaBtn.addEventListener("click", () =>{
         galeriaBtn.style.display = "none";
         champsList.style.display = "block";
         hideEl.style.display = "inline-block";
     });
     
+    // Botón que cierra (esconde) el listado: 
     hideEl.addEventListener("click", () => {
         galeriaBtn.style.display = "inline-block";
         champsList.style.display = "none";

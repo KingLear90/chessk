@@ -1,3 +1,5 @@
+// Se toman los botones de las cards y sus respectivos mensajes al hacerles click:
+
 const btn1 = document.querySelector("#btn1")
 const btn2 = document.querySelector("#btn2")
 const btn3 = document.querySelector("#btn3")
@@ -6,6 +8,9 @@ const btn1Msg = document.getElementById("btn1-msg")
 const btn2Msg = document.getElementById("btn2-msg")
 const btn3Msg = document.getElementById("btn3-msg")
 const btn4Msg = document.getElementById("btn4-msg")
+
+
+// Misma respuesta al evento click para cada botón: 
 
 btn1.addEventListener('click', () => {
     btn1Msg.style.display="block";
