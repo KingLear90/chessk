@@ -161,23 +161,48 @@
     width: 25%;
 }
 
-.galeria-body #agregar-card, #borrar-card {
+.galeria-body .addDelButtons  {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 1%;
+}
+
+.galeria-body #agregar-card {
+    background-color: rgb(68, 91, 241);
     border: 0;
-    line-height: 1.5;
-    width: 11%;
+    width: auto;
     padding: 0 20px;
     font-size: 1.2rem;
     text-align: center;
     color: #fff;
-    border-radius: 7px;
-    margin-bottom: 3%;
+    border-radius: 3px;
     margin-top: 3%;
+}
+
+.galeria-body #agregar-card:hover {
     background-color: rgb(41, 65, 218);
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .galeria-body #borrar-card {
-    margin-top: 1% !important;
-    background-color: rgb(223, 19, 36);
+    background-color: #f33e53;
+    border: 0;
+    width: auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 3%;
+}
+
+.galeria-body #borrar-card:hover {
+    background-color: #f2223b;
+    border: 2px solid black;
+    border-radius: 7px;
 }
 
 .galeria-body #alerta-title {

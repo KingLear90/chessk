@@ -85,8 +85,10 @@
                         <input type="color" id="color-fondo" name="color-fondo" value="#6fa1e2">
                         <label for="color-borde">Color de bordes:</label>
                         <input type="color" id="color-borde" name="color-borde" value="#8f2ac6">
-                        <button type="submit" id="agregar-card">Agregar foto</button>
-                        <button id="borrar-card" onclick="deleteCard()">Borrar foto</button>
+                        <div class="addDelButtons">
+                            <button type="submit" id="agregar-card">Añadir foto</button>
+                            <button id="borrar-card" onclick="deleteCard()">Borrar foto</button>
+                        </div>
                     </div>
                     <div class="new-pics"></div>
                 </form>
