@@ -280,10 +280,6 @@
         margin: 5% 2%;
         gap: 2.5%;
     }
-
-    .imagen{
-        width: 90%;
-    }
 }
 
 
@@ -349,10 +345,6 @@
         margin-right: auto;
         justify-content: center;
         gap: 7%;
-    }
-    .galeria-body .imagen{
-        width: 40%;
-        height: 150px;
     }
 
     .galeria-body .galeria .campeones .imagen:hover{

@@ -60,7 +60,7 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
     const champsList = document.querySelector("#champs-list");
     const hideEl = document.querySelector("#hide-el");
 
-    // Botón que responde al evento del click para mostrar imágenes:
+    // Botón que responde al evento del click para mostrar listado:
     galeriaBtn.addEventListener("click", () =>{
         galeriaBtn.style.display = "none";
         champsList.style.display = "block";
@@ -73,3 +73,4 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
         champsList.style.display = "none";
         hideEl.style.display = "none";
     });
+
