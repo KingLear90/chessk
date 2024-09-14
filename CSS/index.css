@@ -63,17 +63,23 @@
 
 .main-body .principal img {
     margin-top: 0.%;
-   margin-bottom: 2%;
+   margin-bottom: 0%;
     height: 500px;
 }
-
-
 .main-body #slogan{
     width: 100%;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 15px;
     font-style: italic;
     justify-content: center;
+}
+
+.main-body .main-content {
+    background-color: #d7ddde;
+    width: 80%;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .main-body .content {
