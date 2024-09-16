@@ -432,4 +432,9 @@
         margin-bottom: 20px;
     }
 
+    .main-body  #liveTitle a{
+        color: blue;
+        text-decoration: none;
+    }
+
 }
