@@ -1,0 +1,19 @@
+Las props se trata de todos los parámetros que usaremos, qué cosas vamos a pasarle. (?), (ver de bien de nuevo).
+
+propTypes permite definir las props, pasarles un tipo. Lo usamos en javascript porque tenemos que especificar de alguna manera
+qué tipo de dato va a llegar (se escribe en camelCase).
+
+Si la prop isRequired significa que será obligatorio.
+
+A las prop se le puede pasar valores por defecto.
+ 
+Siempre conviene hacer una carpeta llamada 'layout' dentro de 'Components' para colocar ahí los componentes que más 
+se repiten en nuestra página (como el header, el footer).
+
+
+arrayOf (permite tipar una prop del tipo array, indicar de qué tipo será), y dentro del mismo --> PropTypes.shape ({
+
+}), que permite tipar objetos.
+
+
+
