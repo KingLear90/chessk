@@ -1,3 +1,29 @@
+.learn-body #formPlayers{
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.learn-body h4 {
+    margin-right: 0.6%;
+}
+
+.learn-body #input-games {
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 0.1%;
+    text-align: center;
+}
+
+.learn-body #games-btn {
+    font-size: 15px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 294px) {
 
    .learn-body {

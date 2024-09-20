@@ -440,6 +440,10 @@
         gap: 2.5%;
         justify-content: center;
     }
+
+    .galeria-body .searchBox {
+        width: 10%;
+    }
 }
 
 
