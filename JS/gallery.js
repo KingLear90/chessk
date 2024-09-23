@@ -55,22 +55,22 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
         newPic.lastChild.remove();
     }
 
-    // Constantes para mostrar o esconder listado de campeones mundiales:     
-    const galeriaBtn = document.querySelector("#galeria-btn");
+    // Constante y función para mostrar o esconder listado de campeones mundiales:     
     const champsList = document.querySelector("#champs-list");
-    const hideEl = document.querySelector("#hide-el");
-
-    // Botón que responde al evento del click para mostrar listado:
-    galeriaBtn.addEventListener("click", () =>{
-        galeriaBtn.style.display = "none";
-        champsList.style.display = "block";
-        hideEl.style.display = "inline-block";
-    });
-    
-    // Botón que cierra (esconde) el listado: 
-    hideEl.addEventListener("click", () => {
-        galeriaBtn.style.display = "inline-block";
-        champsList.style.display = "none";
-        hideEl.style.display = "none";
-    });
+    let ownGallery = document.querySelector("#own-gallery");
+    window.onscroll = () => {
+        if (window.scrollY > 580) {
+            champsList.style.display = "block";
+            if (window.scrollY > 1282) {
+            ownGallery.style.display = "block";
+            }
+            else {
+                ownGallery.style.display = "none";
+            }
+        }
+        else {
+            champsList.style.display = "none";
+        }
+        
+    }
 

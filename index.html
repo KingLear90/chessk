@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="https://use.typekit.net/vel7hqr.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="/chesskingdom.github.io/JS/script.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100..900&family=Karla:ital,wght@1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
     </style>
@@ -15,7 +14,7 @@
 
 <body class="main-body">
     <header>
-        <div class="navbar">
+        <div class="navbar" id="nav">
             <div id="namePage"><span id="word"><span id="c">C</span><span id="h">h</span><span id="e">e</span><span id="s">s</span><span id="s">s</span><span id="k">K</span><span id="i">i</span><span id="n">n</span><span id="g">g</span><span id="d">d</span><span id="o">o</span><span id="m">m</span></span></div>
             <div id="home"><a href="index.html">Home</a></div> 
             <div id="learn"><a href="aprendizaje.html">Aprendizaje</a></div>
@@ -45,9 +44,9 @@
         </div>
     </div>
 
-    <div id="live">
-        <h4 id="liveTitle">Mirá la cobertura de la 45° Olimpiada de Ajedrez gracias a <a href="https://www.lichess.org" id="lichess"><i>Lichess</i></a></h4>
-        <iframe src="https://lichess.org/embed/broadcast/45th-chess-olympiad-budapest-2024--open-matches-1-25/round-6/se59qqeE" style="width: 100%; aspect-ratio: 4/3;" frameborder="0"></iframe>
+    <div id="live" style="display: none;">
+        <h4 id="liveTitle">Mirá la cobertura de la 45° Olimpiada de Ajedrez. Cortesía de <a href="https://www.lichess.org" id="lichess"><i>Lichess</i></a></h4>
+        <iframe src="https://lichess.org/embed/broadcast/45th-chess-olympiad-budapest-2024--open-matches-1-25/round-1/XJ8g9CkA" style="width: 70%; aspect-ratio: 4/3;" frameborder="2"></iframe>
     </div>
 
     <footer class="pie">
@@ -62,6 +61,7 @@
         </div> 
     </footer>
 
+    <script src="/JS/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -356,7 +356,62 @@
         margin-left: 3px;
         font-size: 40px;
         font-weight:bolder;
+        position: absolute;
+        animation-name: move;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
     }
+
+    @keyframes move {
+        from {
+            left: 0%;
+        }
+        to {
+            left: 50%;
+        }
+    }
+
+    .main-body #k {
+        animation-name: kWhite;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+
+    @keyframes kWhite {
+        from {
+            left: 0%;
+            color: white;
+            text-shadow: 0 0 5px whitesmoke;
+        }
+        to {
+            left: 50%;
+            color: black;
+            text-shadow: none;
+        }
+    }
+
+    .main-body #m {
+        animation-name: mWhite;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        animation-delay: 2.3s;
+    }
+
+    @keyframes mWhite {
+        from {
+            left: 0%;
+            color: white;
+            text-shadow: 0 0 5px whitesmoke;
+        }
+        to {
+            left: 50%;
+            color: black;
+            text-shadow: none;
+        }
+    }
+
+    
     
     #c:hover,
     #h:hover,
@@ -369,8 +424,8 @@
     #d:hover,
     #o:hover,
     #m:hover{
-        color: white;
-        text-shadow: 0 0 7px whitesmoke;
+        color: white !important;
+        text-shadow: 0 0 7px whitesmoke !important;
     }
 
     .main-body .navbar a {
