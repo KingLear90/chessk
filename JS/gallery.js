@@ -59,18 +59,10 @@ document.getElementById("gallery-form").addEventListener("submit", function (eve
     const champsList = document.querySelector("#champs-list");
     let ownGallery = document.querySelector("#own-gallery");
     window.onscroll = () => {
-        if (window.scrollY > 580) {
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
             champsList.style.display = "block";
-            if (window.scrollY > 1282) {
-            ownGallery.style.display = "block";
-            }
-            else {
-                ownGallery.style.display = "none";
-            }
-        }
-        else {
-            champsList.style.display = "none";
-        }
-        
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+                ownGallery.style.display = "block";
+            } 
+        } 
     }
-
